@@ -56,7 +56,6 @@ conexao.php
 Copie o código abaixo e preencha com suas credenciais locais:
 
 <?php
-
 $servidor = "localhost";
 $usuario  = "root";
 $senha    = "";
@@ -68,6 +67,7 @@ try {
 } catch (PDOException $e) {
     die("Erro ao conectar: " . $e->getMessage());
 }
+
 
 
 ⚠️ Importante:
@@ -107,8 +107,8 @@ Modal personalizada para confirmação de compras
 UX melhorada evitando compras acidentais.
 
 📂 Estrutura de Pastas
-bash
-Copiar código
+
+
 fortnite_shop/
 │
 ├── index.php               # Página inicial (loja)
