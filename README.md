@@ -1,3 +1,4 @@
+
 # Fortnite Shop – Desafio Técnico  
 Sistema PHP com integração real com API externa, compra de itens, filtros avançados, histórico e perfil de usuários.
 
@@ -66,4 +67,8 @@ fortinet_shop/
 │
 └── README.md              
 
+
+=======
+# fortinet_shop
+cosméticos disponíveis no Fortnite
 
