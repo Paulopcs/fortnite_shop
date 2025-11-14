@@ -11,7 +11,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     
     try {
         $stmt->execute([$nome, $email, $senha]);
-        header("Location: login.php?cadastrado=1");
+        header("Location: ../views/login.php");
         exit;
     } catch (PDOException $e) {
         $erro = "Email já cadastrado!";
